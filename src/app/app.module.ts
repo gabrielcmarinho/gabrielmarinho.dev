@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FeaturedComponent } from './components/featured/featured.component';
-import { HomepageComponent } from './pages/homepage/homepage.component';
-import { PostCardComponent } from './components/post-card/post-card.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { AppRoutingModule } from '@app/app-routing.module';
+import { AppComponent } from '@app/app.component';
+import { HeaderComponent } from '@app/components/header/header.component';
+import { FeaturedComponent } from '@app/components/featured/featured.component';
+import { HomepageComponent } from '@app/pages/homepage/homepage.component';
+import { PostCardComponent } from '@app/components/post-card/post-card.component';
+import { FooterComponent } from '@app/components/footer/footer.component';
 
 @NgModule({
   declarations: [
