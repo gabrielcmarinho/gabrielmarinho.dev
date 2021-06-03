@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider {
+    content: '';
+    height: 2px;
+    width: 30vw;
+    color: black;
+    background-color: black;
+}
+
+.all-posts {
+    margin-top: 64px;
+    margin-bottom: 30px;
+}

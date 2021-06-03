@@ -1,0 +1,16 @@
+.menu {
+    width: 100vw;
+    padding: 20px 10px 0px 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.item-menu {
+    cursor: pointer;
+    margin: 20px 10px;
+}
