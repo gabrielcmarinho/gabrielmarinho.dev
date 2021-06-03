@@ -8,6 +8,8 @@ import { FeaturedComponent } from '@app/components/featured/featured.component';
 import { HomepageComponent } from '@app/pages/homepage/homepage.component';
 import { PostCardComponent } from '@app/components/post-card/post-card.component';
 import { FooterComponent } from '@app/components/footer/footer.component';
+import { AboutComponent } from '@app/pages/about/about.component';
+import { ContactComponent } from '@app/pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FooterComponent } from '@app/components/footer/footer.component';
     FeaturedComponent,
     HomepageComponent,
     PostCardComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
